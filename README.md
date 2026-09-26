@@ -2,12 +2,18 @@
 
 Velawarp regroupe des fonctions Python faciles a retenir en francais: console, mathematiques, formes texte et fichiers `.env`.
 
-## Installation pour le developpement
+## Installation
 
-Pour installer Velawarp depuis GitHub dans un projet Python, avec Python 3.10 ou plus recent et Git installe:
+Il faut Python 3.10 ou plus recent et Git installe. Depuis un environnement virtuel active, utilise `python` pour installer Velawarp dans cet environnement:
 
 ```powershell
 python -m pip install "git+https://github.com/ZiloxOff/Velawarp-Library.git"
+```
+
+Sous Windows, si tu n'utilises pas d'environnement virtuel, tu peux utiliser le lanceur `py` pour installer dans le Python par defaut:
+
+```powershell
+py -m pip install "git+https://github.com/ZiloxOff/Velawarp-Library.git"
 ```
 
 Puis importe la bibliotheque dans ton code:
