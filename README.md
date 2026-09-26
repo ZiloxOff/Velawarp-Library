@@ -4,6 +4,22 @@ Velawarp regroupe des fonctions Python faciles a retenir en francais: console, m
 
 ## Installation pour le developpement
 
+Pour installer Velawarp depuis GitHub dans un projet Python, avec Python 3.10 ou plus recent et Git installe:
+
+```powershell
+python -m pip install "git+https://github.com/ZiloxOff/Velawarp-Library.git"
+```
+
+Puis importe la bibliotheque dans ton code:
+
+```python
+import velawarp as vw
+
+vw.afficher("Velawarp est installe !")
+```
+
+## Developper Velawarp
+
 ```powershell
 python -m pip install -e ".[dev]"
 ```
