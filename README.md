@@ -87,7 +87,8 @@ Lancer les tests avec `pytest`.
 
 Example de code
 
-"import velawarp as vw
+import velawarp as vw
 
 age = vw.demander("Quel age a tu ? : ")
-vw.sortie(f"Tu as {age} ans.")"
+
+vw.sortie(f"Tu as {age} ans.")
