@@ -84,3 +84,10 @@ Les utilitaires texte et collections restent disponibles: `slugify`, `normalize_
 Importe `velawarp` une seule fois avec `import velawarp as vw`; les fonctions sont regroupees par domaine dans les modules et reunies sous le meme prefixe.
 
 Lancer les tests avec `pytest`.
+
+Example de code
+
+"import velawarp as vw
+
+age = vw.demander("Quel age a tu ? : ")
+vw.sortie(f"Tu as {age} ans.")"
